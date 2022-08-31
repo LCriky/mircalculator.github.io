@@ -333,3 +333,12 @@ var z = document.getElementById("resultado3");
 var xz = document.getElementById("resultado4");
 
 
+const sonido = new Audio('images/eeee.mp3');
+
+var hern = document.getElementById("hernu");
+hern.addEventListener("click", reproducir);
+
+function reproducir(){
+ 
+sonido.play();
+}
