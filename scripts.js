@@ -176,7 +176,7 @@ function changecuer() {
   document.getElementById("imgaceroat").className = "platinoat";
   document.getElementById("imgaceroa").className = "platinoa";
   document.getElementById("imgaceroH").className = "platinor";
-  document.getElementById("imgaceroHt").className = "platinort";s
+  document.getElementById("imgaceroHt").className = "platinort";
 }
 
 var boton = document.getElementById('valor');
