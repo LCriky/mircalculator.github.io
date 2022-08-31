@@ -864,3 +864,9 @@ width: 8em;
 	align-items: center;
 	background-image: url("images/platinort.png");
 }
+
+#hernu{
+	border-radius:  0%;
+	width: 10em;
+	display: inline-flex;
+}
