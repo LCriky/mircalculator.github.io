@@ -80,7 +80,9 @@ img:focus{
 	display: inline-flex;
 	justify-content: center;
 	text-align: left;
-	    align-items: baseline;
+	align-items: baseline;
+	float: left;
+
 }
 
 .botones{
