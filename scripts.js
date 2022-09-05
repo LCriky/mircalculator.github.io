@@ -179,6 +179,42 @@ function changecuer() {
   document.getElementById("imgaceroHt").className = "platinort";
 }
 
+var gar = document.getElementById('garraR');
+gar.addEventListener("click", garra);
+gar.addEventListener("click", resultado);
+gar.addEventListener("click", changearm);
+
+function garra() {
+    imgitem1 = "<div class='imgresult'><img class='resultitem1' src='images/pslv.png'> ";
+    imgitem2 = "<img class='resultitem1' src='images/psla.png'> ";
+    imgitem3 = "<img class='resultitem1' src='images/pslr.png'> ";
+    imgitem4 = "<img class='resultitem1' src='images/omv.png'> ";
+    imgitem5 = "<img class='resultitem1' src='images/oma.png'> ";
+    imgitem6 = "<img class='resultitem1' src='images/omr.png'> ";
+    imgacero1 ="<img class='resultacero' src='images/acerov.png'> ";
+    imgacero2 = "<img class='resultacero' src='images/aceroa.png'> ";
+    imgacero3 = "<img class='resultacero' src='images/aceror.png'> ";
+    cobrearm = 800000;
+    dsarm = 800000;
+}
+var ojo = document.getElementById('ojitoR');
+ojo.addEventListener("click", oji);
+ojo.addEventListener("click", resultado);
+ojo.addEventListener("click", changecuer);
+
+function oji() {
+    imgitem1 = "<div class='imgresult'><img class='resultitem1' src='images/fragv.png'> ";
+    imgitem2 = "<img class='resultitem1' src='images/fraga.png'> ";
+    imgitem3 = "<img class='resultitem1' src='images/fragr.png'> ";
+    imgitem4 = "<img class='resultitem1' src='images/piedrav.png'> ";
+    imgitem5 = "<img class='resultitem1' src='images/piedraa.png'> ";
+    imgitem6 = "<img class='resultitem1' src='images/piedrar.png'> ";
+    imgacero1 ="<img class='resultacero' src='images/platinov.png'> ";
+    imgacero2 = "<img class='resultacero' src='images/platinoa.png'> ";
+    imgacero3 = "<img class='resultacero' src='images/platinor.png'> ";
+    cobrearm = 800000;
+    dsarm = 800000;
+
 var boton = document.getElementById('valor');
 boton.addEventListener("click", resultado);
 
