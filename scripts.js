@@ -214,6 +214,7 @@ function oji() {
     imgacero3 = "<img class='resultacero' src='images/platinor.png'> ";
     cobrearm = 800000;
     dsarm = 800000;
+}
 
 var boton = document.getElementById('valor');
 boton.addEventListener("click", resultado);
