@@ -864,11 +864,3 @@ width: 8em;
 	align-items: center;
 	background-image: url("images/platinort.png");
 }
-
-
-input[type="number"]
-{
-    -webkit-appearance: textfield !important;
-    margin: 0;
-    -moz-appearance:textfield !important;
-}
